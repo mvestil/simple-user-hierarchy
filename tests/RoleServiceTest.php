@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 
 class RoleServiceTest extends TestCase
 {
-    public function testCanStoreUsers()
+    public function testCanStoreRoles()
     {
         $roleInput = json_decode('[{
                 "Id": 1,

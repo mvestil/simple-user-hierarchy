@@ -81,12 +81,9 @@ class RoleRepositoryTest extends TestCase
         $this->assertEquals(5, $repository->all()->count());
 
         $this->assertEquals(4, $repository->childrenOf(1)->count());
-//        $this->assertEquals(3, $repository->childrenOf(2)->count());
-//        $this->assertEquals(2, $repository->childrenOf(3)->count());
-//        $this->assertEquals(0, $repository->childrenOf(4)->count());
-//        $this->assertEquals(0, $repository->childrenOf(5)->count());
-
-
-        //print_r();
+        $this->assertEquals(3, $repository->childrenOf(2)->count());
+        $this->assertEquals(2, $repository->childrenOf(3)->count());
+        $this->assertEquals(0, $repository->childrenOf(4)->count());
+        $this->assertEquals(0, $repository->childrenOf(5)->count());
     }
 }
