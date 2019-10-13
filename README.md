@@ -1,4 +1,4 @@
-### Deputy
+### Introduction
 
 * This is an implementation of simple User Hierarchy.
 * No third party libraries are being used except for PHPUnit
