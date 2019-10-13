@@ -55,7 +55,6 @@ class UserController
     {
         $subordinates = $this->service->getSubordinates($userId);
 
-        // TODO : Return collection
         return $subordinates;
     }
 }
