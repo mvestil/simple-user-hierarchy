@@ -8,7 +8,7 @@
 
 ### What you need to see here?
 1. main.php
-    + Runs application that satisfies the requirement
+    + Runs application
         + Modify the data as needed inside the file
     + Run in your terminal with php installed `php src/main.php <id-of-user>`
         + Example: `php src/main.php 1`
